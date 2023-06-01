@@ -11,7 +11,7 @@ password = 'Wake2sleep$'
 database = 'project2'
 
 def main():
-    connect_str = "DefaultEndpointsProtocol=https;AccountName=p2glpb;AccountKey=oA1HLU32e5DEXl7nFZ4mRPQ8JToCMLSNjzz22AGSUmmk567bBfbaLKSHbhPFbycyeI/OE0t4tCn++ASthiKx8w==;EndpointSuffix=core.windows.net"
+    connect_str = "DefaultEndpointsProtocol=https;AccountName=project2blobs;AccountKey=RMPlWlNN8FXg7tunlGqPWY5kbyD5DTCL2z+yWptclJVqoi5vjMOJ52nYTiNbvZsxhOihdFVvD4cm+AStqobrAQ==;EndpointSuffix=core.windows.net"
     # Create the BlobServiceClient object which will be used to create a container client
     blob_service_client = BlobServiceClient.from_connection_string(connect_str)
     # Create a unique name for the container
