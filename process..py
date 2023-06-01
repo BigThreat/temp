@@ -5,10 +5,10 @@ from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient, _
 import csv
 
 
-hostname = 'p2testserver.mysql.database.azure.com'
-username = 'prashant@p2testserver.mysql.database.azure.com'
-password = 'w0lv3r1n3@'
-database = 'testdb'
+hostname = 'project2.mysql.database.azure.com'
+username = 'project2'
+password = 'Wake2sleep$'
+database = 'project2'
 
 def main():
     connect_str = "DefaultEndpointsProtocol=https;AccountName=p2glpb;AccountKey=oA1HLU32e5DEXl7nFZ4mRPQ8JToCMLSNjzz22AGSUmmk567bBfbaLKSHbhPFbycyeI/OE0t4tCn++ASthiKx8w==;EndpointSuffix=core.windows.net"
